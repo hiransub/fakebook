@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+.leftPaneBox {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(167, 159, 159);
+}
+
+.leftPaneCotainer {
+  padding: 20px;
+}
+
+.leftPaneMenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leftPaneMenuItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.leftPaneMenuIcon {
+  margin-right: 20px;
+}
+
+.followingPageImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.pagesFollowing {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #575757;
+}
+
+.pageList {
+  padding: 0;
+  margin: 0;
+}
+
+.followingPageList {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.followingPageName {
+  margin-left: 10px;
+}

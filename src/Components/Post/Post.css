@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.postImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.postTop {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.postUserName {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 6px;
+  font-weight: bold;
+}
+
+.postAddedTime {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.post {
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  -moz-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  margin: 30px 0;
+  margin-left: 10px;
+}
+
+.postedImage {
+  width: 98%;
+  background-size: cover;
+}
+
+.postBottom {
+  width: 98%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postLike {
+  margin-left: 2px;
+}
+.postReaction {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.likeCount {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.comments {
+  margin-right: 10px;
+  border-bottom: 1px dashed gray;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.postedImage {
+  padding: 8px;
+}
+.postCaption {
+  margin-left: 10px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}

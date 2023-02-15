@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+.rightPaneBox {
+  flex: 4;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  position: sticky;
+  top: 50px;
+}
+
+.rightPainContainer {
+  padding: 20px, 20px, 0, 0;
+}
+
+.adImage {
+  width: 98%;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.rightPainContainer {
+  margin-top: 10px;
+}
+
+.sponsered {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  font-weight: bold;
+}
+
+.adText {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.birthdayImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.onlineFriendImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.onlineList {
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  -moz-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  margin-top: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.friendOnlineName {
+  margin-left: 5px;
+}
+
+.onlineStatus {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(87, 255, 36);
+  color: rgb(87, 255, 36);
+}
+
+.birtdayText {
+  margin-top: 30px;
+  margin-left: 10px;
+}

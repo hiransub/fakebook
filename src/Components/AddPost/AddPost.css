@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.addPostPic {
+  height: 35px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.addPost {
+  width: 96%;
+  height: 160px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  -webkit-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  -moz-box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+  box-shadow: 2px 3px 4px 1px rgba(211, 212, 214, 1);
+}
+
+.addPostContainer {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.addPostTop {
+  display: flex;
+  align-items: center;
+}
+
+.addPostInput {
+  border: none;
+  width: 80%;
+  margin-left: 15px;
+}
+
+.addPostInput:focus {
+  outline: none;
+}
+
+.addPostHr {
+  margin-top: 15px;
+}
+
+.addPostOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addPostButton {
+  border: none;
+  border-radius: 5px;
+  background: #396ddf;
+  color: white;
+  padding: 5px;
+  margin-left: 25px;
+  width: 50px;
+}
+
+.addPostOption {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.addPostIcon {
+  margin-right: 6px;
+}
